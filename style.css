@@ -1,0 +1,178 @@
+/*
+    propriete general utiliser par les differents tags dans les deux pages 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    padding-top: 50px;
+    background-color: #c8c8c8;
+    font-size: 1em;
+}
+
+a {
+    color: #d13d26;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    width: 85%;
+    margin: auto;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #d13d26;
+    margin: 20px;
+}
+
+h2::first-letter {
+    font-variant: small-caps;
+    font-size: 2.5rem;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+main p {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+figure {
+    padding-top: 5%;
+    border-radius: 5px;
+    border: 3.5px solid #d13d26;
+    background-color: #333333;
+    width: 100%;
+}
+
+figure img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+figure figcaption {
+    width: 90%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 20px;
+    margin: auto;
+    color: #c8c8c8;
+}
+
+
+/*
+    proprietes ou tags propre a la page index ou histoire d'internet 
+*/
+
+table {
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #333333;
+    color: #dddddd;
+    line-height: 2rem;
+}
+
+table td {
+    padding: 10px;
+    border: 0;
+}
+
+thead th {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+tbody tr:nth-of-type(2n+1) {
+    background-color: #dddddd;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: #999999;
+}
+
+
+/*
+    propriete utiliser pour les tags dans la deuxieme  page 
+*/
+
+blockquote {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+/*
+    les differentes class et id css  utiliser comme attributs dans les deux pages html
+*/
+
+
+/*
+    les class
+*/
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.code {
+    background-color: #333333;
+    border-radius: 5px;
+    border: 3.5px solid #d13d26;
+    color: #dddddd;
+    padding: 15px;
+}
+
+
+/*
+    identifiant specifique a un element dans les differentes pages
+*/
+
+#liste {
+    margin: 25px;
+    margin-left: 50px;
+}
+
+#liste li {
+    line-height: 1.25rem;
+}
+
+#bordure_spe {
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px 50px;
+    border: 3.5px dashed #5549af;
+    line-height: 1.75rem;
+    font-size: 1.2rem;
+    color: #5549af;
+    background-color: #b7b7b7;
+}
