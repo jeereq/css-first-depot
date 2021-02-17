@@ -6,14 +6,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif serif, 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 body {
     padding: 20px;
+    font-weight: 400;
     padding-top: 50px;
     background-color: #c8c8c8;
-    font-size: 1em;
 }
 
 a {
@@ -45,14 +45,15 @@ h2::first-letter {
 }
 
 main {
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
 main p {
-    font-size: 1.1rem;
+    width: 100%;
+    font-size: 0.95em;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 figure {
@@ -60,11 +61,13 @@ figure {
     border-radius: 5px;
     border: 3.5px solid #d13d26;
     background-color: #333333;
+    height: auto;
     width: 100%;
 }
 
 figure img {
     display: block;
+    height: 80vh;
     width: 90%;
     margin: auto;
 }
